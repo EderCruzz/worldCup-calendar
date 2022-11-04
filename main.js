@@ -34,3 +34,8 @@ document.querySelector('.cards').innerHTML =
     createGame('cameroon', '16:00', 'brazil') )
 
 
+const chk = document.getElementById('chk')
+
+chk.addEventListener('change', () => {
+    document.body.classList.toggle('yellow')
+})
