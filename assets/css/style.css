@@ -10,6 +10,7 @@
     --card-title-border-color: #338AF3;
     --card-color-primary: #338AF3;
     --card-font-color: #E1E1E6;
+    --card-font2-color: #F7DD43;
     --card-bg-color: #2b2b3d;
     --bg: url(../bg-blue.svg);
     --bg-color: linear-gradient(to bottom, #262647, black);
@@ -18,6 +19,7 @@ body.yellow{
     --card-title-border-color: #746615;
     --card-color-primary: #F7DD43;
     --card-font-color: #1D1C19;
+    --card-font2-color: #746615;
     --card-bg-color: #e0d8c0;
     --bg: url(../bg-yellow.svg);
     --bg-color: linear-gradient(to bottom, #746615, white);;
@@ -128,7 +130,7 @@ header h1 {
     margin-inline: auto;
     margin-bottom: 53px;
 
-    color: #746615;
+    color: var(--card-font2-color);
 
     font-size: 24px;
     font-style: bold;
