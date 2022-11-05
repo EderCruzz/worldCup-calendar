@@ -9,21 +9,18 @@
 :root{
     --card-title-border-color: #338AF3;
     --card-color-primary: #338AF3;
-    --card-bg-color: #202024;
+    --card-font-color: #E1E1E6;
+    --card-bg-color: #2b2b3d;
     --bg: url(../bg-blue.svg);
-    --bg-color: #121214;
+    --bg-color: #262647;
 }
 body.yellow{
     --card-title-border-color: #746615;
     --card-color-primary: #F7DD43;
-    --card-bg-color: #1D1C19;
-    --bg: url(../bg-yellow.svg)
-}
-body.green{
-    --card-title-border-color: #047C3F;
-    --card-color-primary: #047C3F;
-    --card-bg-color: #1A1F1B;
-    --bg: url(../bg-green.svg)
+    --card-font-color: #1D1C19;
+    --card-bg-color: #e0d8c0;
+    --bg: url(../bg-yellow.svg);
+    --bg-color: #746615;
 }
 
 ul{
@@ -31,7 +28,6 @@ ul{
 }
 body {
     background-color: var(--bg-color);
-    background-image: var(--bg);
     background-position-y: 250%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -139,7 +135,7 @@ header h1 {
 }
 
 .card h2 span{
-    color:#E1E1E6;
+    color:var(--card-font-color);
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -158,7 +154,7 @@ header h1 {
     align-items: center;    
 }
 .card ul li strong{
-    color: #E1E1E6;
+    color: var(--card-font-color);
     font-size: 36px;
     font-weight: black;
     line-height: 125%;
