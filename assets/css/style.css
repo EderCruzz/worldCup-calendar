@@ -12,7 +12,7 @@
     --card-font-color: #E1E1E6;
     --card-bg-color: #2b2b3d;
     --bg: url(../bg-blue.svg);
-    --bg-color: #262647;
+    --bg-color: linear-gradient(to bottom, #262647, black);
 }
 body.yellow{
     --card-title-border-color: #746615;
@@ -20,14 +20,14 @@ body.yellow{
     --card-font-color: #1D1C19;
     --card-bg-color: #e0d8c0;
     --bg: url(../bg-yellow.svg);
-    --bg-color: #746615;
+    --bg-color: linear-gradient(to bottom, #746615, white);;
 }
 
 ul{
     list-style: none;
 }
 body {
-    background-color: var(--bg-color);
+    background-image: var(--bg-color);
     background-position-y: 250%;
     background-position-x: center;
     background-repeat: no-repeat;
